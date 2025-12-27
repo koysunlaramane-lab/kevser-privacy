@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevser - Gizlilik Politikası / Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #0a0a14 0%, #1a1a2e 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: rgba(212, 175, 55, 0.1);
+            border-radius: 20px;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            color: #D4AF37;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 14px;
+        }
+        .lang-switch {
+            margin-top: 20px;
+        }
+        .lang-switch button {
+            padding: 10px 25px;
+            margin: 0 5px;
+            border: 2px solid #D4AF37;
+            background: transparent;
+            color: #D4AF37;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        .lang-switch button:hover,
+        .lang-switch button.active {
+            background: #D4AF37;
+            color: #0a0a14;
+        }
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        h2 {
+            color: #1a1a2e;
+            font-size: 20px;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #D4AF37;
+        }
+        h2:first-child {
+            margin-top: 0;
+        }
+        p, li {
+            color: #555;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 25px;
+            margin: 15px 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background: rgba(212, 175, 55, 0.1);
+            padding: 15px 20px;
+            border-radius: 10px;
+            border-left: 4px solid #D4AF37;
+            margin: 20px 0;
+        }
+        .contact {
+            background: #1a1a2e;
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact a {
+            color: #D4AF37;
+            text-decoration: none;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 13px;
+        }
+        .section {
+            display: none;
+        }
+        .section.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🌙</div>
+            <h1>Kevser</h1>
+            <p class="subtitle">Gizlilik Politikası / Privacy Policy</p>
+            <div class="lang-switch">
+                <button id="btn-tr" class="active" onclick="showLang('tr')">🇹🇷 Türkçe</button>
+                <button id="btn-en" onclick="showLang('en')">🇬🇧 English</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- TÜRKÇE -->
+            <div id="content-tr" class="section active">
+                <h2>1. Giriş</h2>
+                <p>Kevser uygulamasını ("Uygulama") kullandığınız için teşekkür ederiz. Bu Gizlilik Politikası, kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır.</p>
+                
+                <div class="highlight">
+                    <strong>🔒 Taahhüdümüz:</strong> Verileriniz bizim için emanettir. Sadece uygulamanın işlevselliği için gerekli verileri toplar, asla üçüncü taraflarla satış amacıyla paylaşmayız.
+                </div>
+
+                <h2>2. Toplanan Veriler</h2>
+                <p>Uygulamamız aşağıdaki verileri toplayabilir:</p>
+                <ul>
+                    <li><strong>Hesap Bilgileri:</strong> E-posta adresi, ad-soyad (kayıt sırasında)</li>
+                    <li><strong>Konum Verisi:</strong> Ezan vakitlerini doğru hesaplamak için (izninizle)</li>
+                    <li><strong>Kullanıcı İçerikleri:</strong> Eklediğiniz merhum bilgileri, dualar, zikirler</li>
+                    <li><strong>Cihaz Bilgileri:</strong> Bildirim token'ı (push bildirimler için)</li>
+                </ul>
+
+                <h2>3. Verilerin Kullanımı</h2>
+                <p>Topladığımız veriler şu amaçlarla kullanılır:</p>
+                <ul>
+                    <li>Hesabınızı oluşturmak ve yönetmek</li>
+                    <li>Ezan vakitlerini konumunuza göre hesaplamak</li>
+                    <li>Merhum anma ve dua özelliklerini sağlamak</li>
+                    <li>Push bildirimleri göndermek (izninizle)</li>
+                    <li>Uygulama performansını iyileştirmek</li>
+                </ul>
+
+                <h2>4. Üçüncü Taraf Hizmetler</h2>
+                <p>Uygulamamız aşağıdaki güvenilir hizmetleri kullanmaktadır:</p>
+                <ul>
+                    <li><strong>Firebase (Google):</strong> Kimlik doğrulama, veritabanı, bildirimler</li>
+                    <li><strong>Google Sign-In:</strong> Google hesabıyla giriş</li>
+                    <li><strong>Facebook Login:</strong> Facebook hesabıyla giriş</li>
+                </ul>
+                <p>Bu hizmetlerin kendi gizlilik politikaları bulunmaktadır.</p>
+
+                <h2>5. Veri Güvenliği</h2>
+                <p>Verilerinizi korumak için:</p>
+                <ul>
+                    <li>SSL/TLS şifreleme kullanıyoruz</li>
+                    <li>Firebase güvenlik kuralları uyguluyoruz</li>
+                    <li>Sadece yetkili erişime izin veriyoruz</li>
+                </ul>
+
+                <h2>6. Veri Saklama ve Silme</h2>
+                <p>Verileriniz hesabınız aktif olduğu sürece saklanır. Hesabınızı silmek isterseniz, uygulama içinden veya <strong>kevser.application@gmail.com</strong> adresine e-posta göndererek talepte bulunabilirsiniz.</p>
+
+                <h2>7. Çocukların Gizliliği</h2>
+                <p>Uygulamamız 13 yaşın altındaki çocuklara yönelik değildir ve bilerek bu yaş grubundan veri toplamayız.</p>
+
+                <h2>8. Değişiklikler</h2>
+                <p>Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişikliklerde uygulama içinden bildirim yapılacaktır.</p>
+
+                <div class="contact">
+                    <h3>📧 İletişim</h3>
+                    <p>Sorularınız için: <a href="mailto:kevser.application@gmail.com">kevser.application@gmail.com</a></p>
+                </div>
+            </div>
+
+            <!-- ENGLISH -->
+            <div id="content-en" class="section">
+                <h2>1. Introduction</h2>
+                <p>Thank you for using the Kevser application ("App"). This Privacy Policy explains how your personal data is collected, used, and protected.</p>
+                
+                <div class="highlight">
+                    <strong>🔒 Our Commitment:</strong> Your data is entrusted to us. We only collect data necessary for the app's functionality and never sell it to third parties.
+                </div>
+
+                <h2>2. Data We Collect</h2>
+                <p>Our app may collect the following data:</p>
+                <ul>
+                    <li><strong>Account Information:</strong> Email address, name (during registration)</li>
+                    <li><strong>Location Data:</strong> To calculate accurate prayer times (with your permission)</li>
+                    <li><strong>User Content:</strong> Deceased memorial information, prayers, dhikr you add</li>
+                    <li><strong>Device Information:</strong> Notification token (for push notifications)</li>
+                </ul>
+
+                <h2>3. How We Use Data</h2>
+                <p>The data we collect is used to:</p>
+                <ul>
+                    <li>Create and manage your account</li>
+                    <li>Calculate prayer times based on your location</li>
+                    <li>Provide memorial and prayer features</li>
+                    <li>Send push notifications (with your permission)</li>
+                    <li>Improve app performance</li>
+                </ul>
+
+                <h2>4. Third-Party Services</h2>
+                <p>Our app uses the following trusted services:</p>
+                <ul>
+                    <li><strong>Firebase (Google):</strong> Authentication, database, notifications</li>
+                    <li><strong>Google Sign-In:</strong> Login with Google account</li>
+                    <li><strong>Facebook Login:</strong> Login with Facebook account</li>
+                </ul>
+                <p>These services have their own privacy policies.</p>
+
+                <h2>5. Data Security</h2>
+                <p>To protect your data:</p>
+                <ul>
+                    <li>We use SSL/TLS encryption</li>
+                    <li>We implement Firebase security rules</li>
+                    <li>We only allow authorized access</li>
+                </ul>
+
+                <h2>6. Data Retention and Deletion</h2>
+                <p>Your data is retained as long as your account is active. If you wish to delete your account, you can request it through the app or by emailing <strong>kevser.application@gmail.com</strong>.</p>
+
+                <h2>7. Children's Privacy</h2>
+                <p>Our app is not intended for children under 13, and we do not knowingly collect data from this age group.</p>
+
+                <h2>8. Changes</h2>
+                <p>We may update this policy from time to time. You will be notified of significant changes through the app.</p>
+
+                <div class="contact">
+                    <h3>📧 Contact</h3>
+                    <p>For questions: <a href="mailto:kevser.application@gmail.com">kevser.application@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer">
+            Son güncelleme / Last updated: Aralık 2024 / December 2024<br>
+            © 2024 Kevser. Tüm hakları saklıdır / All rights reserved.
+        </p>
+    </div>
+
+    <script>
+        function showLang(lang) {
+            document.getElementById('content-tr').classList.remove('active');
+            document.getElementById('content-en').classList.remove('active');
+            document.getElementById('btn-tr').classList.remove('active');
+            document.getElementById('btn-en').classList.remove('active');
+            
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
